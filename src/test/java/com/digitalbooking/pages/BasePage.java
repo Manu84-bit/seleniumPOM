@@ -8,13 +8,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 
-public class PageBase {
+public class BasePage {
     protected static String URL;
     protected static WebDriver driver;
     protected Duration d = Duration.ofSeconds(30);
     protected WebDriverWait wait;
 
-    public PageBase(WebDriver driver, String URL){
+    public BasePage(WebDriver driver, String URL){
         this.driver = driver;
         this.URL = URL;
         wait =  new WebDriverWait(driver, d);

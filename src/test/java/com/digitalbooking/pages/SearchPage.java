@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class SearchPage extends PageBase {
+public class SearchPage extends BasePage {
 
     private By searchBox = By.id("ciudad");
     private By searcBtn = By.id("btn-buscador");

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class LoginPage extends PageBase{
+public class LoginPage extends BasePage {
 
     private By emailInput = By.name("email");
     private By passInput = By.xpath("//input[@name='password']");
